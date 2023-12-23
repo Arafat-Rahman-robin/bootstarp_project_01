@@ -8,10 +8,15 @@
     <!-- bootstarp icon link hear -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <title>Document</title>
+    <style>
+      *{
+        scroll-behavior: smooth;
+      }
+    </style>
 </head>
 <body class="bg-light ">
     
-    <nav class="navbar navbar-expand-lg bg-warning  ">
+    <nav class="navbar navbar-expand-lg bg-warning " id="home">
         <div class="container-fluid">
           <a class="navbar-brand text-success" href="#"> <strong>LC SHOP</strong> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -205,7 +210,7 @@
 
       <!-- second section code start hear -->
 
-      <section class="container mt-5">
+      <section class="container my-5">
         <div class="text-center">
           <p class="h3 fw-bolder">Tranding Products</p>
         </div>
@@ -382,6 +387,233 @@
           
         </div>
       </section>
+
+      <!-- third section code start hear -->
+
+      <section class="container my-5">
+        <p class="h4 text-center fw-bolder my-5 ">Know More Me</p>
+        <div class="row">
+            <div class="col-md-7 me-auto">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Our Company
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Our Background
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Our Services
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-outline-danger w-100 mt-3 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                Click For More Details
+              </button>
+              
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">More Information</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, fugiat. Dolores velit eos eligendi asperiores tempore? Consequatur tempora esse aliquam, asperiores magni ipsa saepe sed ad minus laudantium? Recusandae error possimus minima id minus neque consequuntur eveniet. Culpa, odio asperiores?
+                  </div>
+                  <div class="dropdown mt-3">
+                    <button class="btn btn-danger w-100 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                      Open Menu
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Home</a></li>
+                      <li><a class="dropdown-item" href="#">Sercies</a></li>
+                      <li><a class="dropdown-item" href="#">Products</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <img class="img-fluid" src="bot-image/know-me-more.jpg" alt="">
+            </div>
+        </div>
+      </section>
+
+      <!-- fourth section code start hear -->
+
+      <section class="my-5 ">
+          <div class="container">
+              <p class="h4 fw-bolder mt-5 mb-4 ">Shop By Brand</p>
+              <div class="row bg-white ">
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-1.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-2.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-3.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-4.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-5.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-6.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-7.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-8.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-9.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-10.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-11.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-2 border border-1 text-center py-5">
+                      <img src="bot-image/shopbybrand-12.png" class="img-fluid" alt="">
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- section five code start hear -->
+
+      <section class="container my-4">
+        <p class="h4 fw-bolder mb-4 ">Top Selling Products</p>
+          <div class="row justify-content-between ">
+
+              <div class="col-md-6 bg-white border border-3 shadow-lg rounded-4 py-4 px-5 d-flex align-items-center justify-content-around ">
+                  <div class="col-5">
+                      <img src="bot-image/topSelling-1.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-5">
+                      <p class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, cupiditate?</p>
+                      <p class=" ">
+                        <span class="fw-bold text-secondary me-4 "><del>$90.00</del></span>
+                        <span class="text-danger fw-bold">$85.00</span>
+                      </p>
+                      <button class="btn btn-sm btn-danger">Add To Cart</button>
+                  </div>
+              </div>
+
+              <div class="col-md-6 bg-white border border-3 shadow rounded-4 py-4 px-5 d-flex align-items-center justify-content-around ">
+                  <div class="col-5">
+                      <img src="bot-image/topSelling-2.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-5">
+                      <p class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, cupiditate?</p>
+                      <p class=" ">
+                        <span class="fw-bold text-secondary me-4 "><del>$600.00</del></span>
+                        <span class="text-danger fw-bold">$569.00</span>
+                      </p>
+                      <button class="btn btn-sm btn-danger">Add To Cart</button>
+                  </div>
+              </div>
+              <div class="col-md-6 bg-white border border-3 rounded-4 shadow-lg py-4 px-5 d-flex align-items-center justify-content-around ">
+                  <div class="col-5">
+                      <img src="bot-image/toSelling-3.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-5">
+                      <p class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, cupiditate?</p>
+                      <p class=" ">
+                        <span class="fw-bold text-secondary me-4 "><del>$119.00</del></span>
+                        <span class="text-danger fw-bold">$100.00</span>
+                      </p>
+                      <button class="btn btn-sm btn-danger">Add To Cart</button>
+                  </div>
+              </div>
+              <div class="col-md-6 bg-white py-4 px-5 border border-3 rounded-4 shadow-lg  d-flex align-items-center justify-content-around ">
+                  <div class="col-5">
+                      <img src="bot-image/topSelling-4.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-5">
+                      <p class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, cupiditate?</p>
+                      <p class=" ">
+                        <span class="fw-bold text-secondary me-4 "><del>$69.00</del></span>
+                        <span class="text-danger fw-bold">$59.00</span>
+                      </p>
+                      <button class="btn btn-sm btn-danger">Add To Cart</button>
+                  </div>
+              </div>
+              
+          </div>
+      </section>
+
+      <!-- section six code start hear? -->
+
+      <section class="container my-5 ">
+          <a href="">
+              <div style="background-image: url(bot-image/headphoneSlide.png); background-position: center; background-size: cover; height: 200px;background-repeat: no-repeat;"></div>
+          </a>
+      </section>
+
+      <!-- up arrow section code start hear -->
+
+      <div class="">
+          <p class="position-fixed bottom-0 fs-4 border border-2 rounded-circle  end-0 me-2 mb-3 text-danger text-center d-flex align-items-center justify-content-center " ><a style="width: 50px; height: 50px;" class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center fs-4 "  href="#home"><i class="bi bi-arrow-up"></i></a></p>
+      </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
